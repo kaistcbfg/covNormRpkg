@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # covNormRpkg 
 
 ## Introduction
@@ -191,3 +192,7 @@ cax = ax.matshow(contact_map, cmap=plt.cm.RdYlBu_r, vmin=0, vmax=10)
 fig.colorbar(cax)
 plt.savefig("HiC_contact_map.pdf", dpi=1000)
 ```
+=======
+# covNormRpkg
+An R package implementation of 'covNorm' method
+>>>>>>> 1f8390cef20e462d49a95d523afb94da8fe8ae2b
