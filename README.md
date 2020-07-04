@@ -17,7 +17,7 @@ The preliminary forms of covNorm in previous works:
 > Yang, D., *et al*,   
 > 3DIV: A 3D-genome Interaction Viewer and database   
 > *Nucleic Acids Research*, Volume 46, Issue D1, 4 January 2018, pages D52–D57,.  
-> doi: https://doi.org/10.1109/TVCG.2014.2346248
+> doi: https://doi.org/10.1093/nar/gkx1017
 
 > Jung, I., *et al*,   
 > A compendium of promoter-centered long-range chromatin interactions in the human genome   
