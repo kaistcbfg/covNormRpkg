@@ -40,6 +40,8 @@ devtools::install_github("kaistcbfg/covNormRpkg")
 Download covNorm source code and install with the R CMD
 
 ```bash
+git clone https://github.com/kaistcbfg/covNormRpkg.git
+R CMD build covNormRpkg
 R CMD INSTALL covNormRpkg_1.0.0.tar.gz
 ```
 
