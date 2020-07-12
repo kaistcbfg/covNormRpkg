@@ -187,7 +187,10 @@ f.close()
 
 fig = plt.figure(1)
 ax = fig.add_subplot(111)
-cax = ax.matshow(contact_map, cmap=plt.cm.RdYlBu_r, vmin=0, vmax=10)
+cax = ax.matshow(contact_map, cmap=plt.cm.RdYlBu_r, vmin=0, vmax=5)
 fig.colorbar(cax)
 plt.savefig("HiC_contact_map.pdf", dpi=1000)
 ```
+GM19240 chr17 normalized Hi-C contact matrix  
+
+<img src="https://user-images.githubusercontent.com/67453667/87240706-f4b5ad00-c456-11ea-9ae3-8263be2e2ebd.png" width="50%"></img>
