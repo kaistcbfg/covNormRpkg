@@ -102,6 +102,7 @@ cov_result <- covNormRpkg::normCoverage(raw_data_filter)
 cov_result$coeff_cov1
 cov_result$coeff_cov2
 cov_df <- cov_result$result_df
+write.table(cov_df, file=gzfile("outFileName1"), row.names=FALSE, col.names=TRUE, sep="\t", quote=FALSE) # Coverage normalization result
 print("3: Coverage normalized.")
 
 covNormRpkg::checkFreqCovPCC(cov_df, outpdfname='QCplot_coverage_PCC.pdf')
@@ -121,7 +122,7 @@ print("7: Significant interactions called.")
 
 #Uncomment 'saveEachChr' to split-save file for each chromosome.
 #covNormRpkg::saveEachChr(final_df, "./outputFolder", "outputSampleName") 
-write.table(final_df, file=gzfile("outFileName"), row.names=FALSE, col.names=TRUE, sep="\t", quote=FALSE)
+write.table(final_df, file=gzfile("outFileName2"), row.names=FALSE, col.names=TRUE, sep="\t", quote=FALSE) # Distance normalization & significant interactions
 ```
 For pcHi-C PO-interaction normalization, modify step 3 (Coverage normalization) part with following code.
 ```R
@@ -163,9 +164,6 @@ import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import gzip
-import sys
-
-normalized_file = sys.argv[1]
 
 chromosome_size = 83257441 #hg38 chr17
 resolution = 40000 # 40kb
@@ -173,7 +171,7 @@ bin_length = (chromosome_size/resolution) + 1
 
 contact_map = np.zeros((bin_length, bin_length))
 
-f = gzip.open(normalized_file)
+f = gzip.open('GM19240.chr17.covnorm.gz') # coverage normalization result file
 f.readline() #header
 for line in f:
     line = line.rstrip()
