@@ -50,8 +50,8 @@ R CMD INSTALL covNormRpkg_1.0.0.tar.gz
 Sample Hi-C/pcHi-C datasets for the covNorm can be downloaded with:
 
 ```bash
-wget http://junglab.kaist.ac.kr/Dataset/GM12878_chr17_cisOnly_Feature.gz #Hi-C Replicate 1 rows, Mb
-wget http://junglab.kaist.ac.kr/Dataset/GM19240_chr17_cisOnly_Feature.gz #Hi-C Replicate 2 rows, Mb
+wget http://junglab.kaist.ac.kr/Dataset/GM19204.chr17.cis.feature.gz #Hi-C Replicate 1,  783588 rows, 12Mb
+wget http://junglab.kaist.ac.kr/Dataset/GM19240.chr17.cis.feature.gz #Hi-C Replicate 2, 1136435 rows, 19Mb
 
 wget http://junglab.kaist.ac.kr/Dataset/GM12878.po.no0.feature.gz #pcHi-C Replicate 1, 4298847 rows, 59Mb
 wget http://junglab.kaist.ac.kr/Dataset/GM19240.po.no0.feature.gz #pcHi-C Replicate 2, 3582541 rows, 49Mb
