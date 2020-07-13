@@ -109,7 +109,7 @@ covNormRpkg::checkFreqCovPCC(cov_df, outpdfname='QCplot_coverage_PCC.pdf')
 covNormRpkg::plotCovNormRes( cov_df, outpdfname='QCplot_coverage_heatmap.pdf')
 print("4: Plot coverage normalization results.")
 
-dist_result <- covNormRpkg::normDistance(cov_df)
+dist_result <- covNormRpkg::normDistance(cov_df, max_dist=2000000)
 dist_df <- dist_result$result_df
 print("5: Distance normalized.")
 
