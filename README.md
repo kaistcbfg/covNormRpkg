@@ -126,6 +126,7 @@ write.table(final_df, file=gzfile("outFileName2"), row.names=FALSE, col.names=TR
 ```
 For pcHi-C PO-interaction normalization, modify step 3 (Coverage normalization) part with following code.
 ```R
+raw_data_filter <- raw_data_filter[which(raw_data_filter$dist<2000000),] # Consider 15kb-2Mb interactions only in pcHi-C
 cov_result <- covNormRpkg::normCoverage(raw_data_filter, do_shuffle=FALSE, cov1_thresh=200, cov2_thresh=50) 
 #in pcHi-C PO-interaction normalization, lower coverage threshold for 'other' interaction
 ```
