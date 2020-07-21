@@ -11,7 +11,7 @@
 
 filterInputDF <- function(df, check_trans_values=TRUE, remove_zero_contact=TRUE, self_ligation_distance=15000)
 {
-	df <- df[which(str_split_fixed(df$frag1,"\\.",3)[,1] == str_split_fixed(df$frag2,"\\.",3)[,1]),]
+	if (check_trans_values) {df <- df[which(str_split_fixed(df$frag1,"\\.",3)[,1] == str_split_fixed(df$frag2,"\\.",3)[,1]),]}
 	if (remove_zero_contact){df <- df[which(df$freq > 0),] }
 	if (self_ligation_distance > 0){ df <- df[which(df$dist > self_ligation_distance),]}
 
