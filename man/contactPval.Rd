@@ -4,7 +4,7 @@
 \alias{contactPval}
 \title{Compute p-value/FDR of normalized interaction by 3P-Weibull fitting}
 \usage{
-contactPval(df)
+contactPval(df, outpdfname)
 }
 \arguments{
 \item{df}{A coverage-distance normalized output df.}

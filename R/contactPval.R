@@ -7,11 +7,13 @@
 #' @return df Added p-value/FDR of interactions as columns.
 #' @export
 
-contactPval <- function(df)
+contactPval <- function(df, outpdfname)
 {
-	dist_res <- as.vector(df$dist_res)
+	dist_res <- as.numeric(df$dist_res)
 
-	result=fitDistr(dist_res,plot=FALSE)
+	pdf(outpdfname)
+	result=fitDistr(dist_res)
+	dev.off()
 	location=result$fit$"3P Weibull"$par$location
 	shape=result$fit$"3P Weibull"$par$shape
 	scale=result$fit$"3P Weibull"$par$scale
