@@ -9,15 +9,15 @@ If you use covNorm in a paper, please cite:
 
 > Kyukwang Kim and Inkyung Jung,  
 > covNorm: an R package for coverage based  normalization of Hi-C and capture Hi-C data,  
-> *Computational and Structural Biotechnology Journal*, Volume 19, pages 3149-3159(2021).
+> *Computational and Structural Biotechnology Journal*, Volume 19, pages 3149-3159(2021).  
 > doi: https://doi.org/10.1016/j.csbj.2021.05.041 
 
 The preliminary forms of covNorm in previous works:
 
 > Kim, K., *et al*,
 > 3DIV update for 2021: a comprehensive resource of 3D genome and 3D cancer genome
-> *Nucleic Acids Research*, Volume 49, Issue D1, pages D38–D46(2020).
-> https://doi.org/10.1093/nar/gkaa1078
+> *Nucleic Acids Research*, Volume 49, Issue D1, pages D38–D46(2020).  
+> doi: https://doi.org/10.1093/nar/gkaa1078
 
 > Jung, I., *et al*,   
 > A compendium of promoter-centered long-range chromatin interactions in the human genome   
@@ -53,7 +53,7 @@ Download covNorm source code and install with the R CMD
 ```bash
 git clone https://github.com/kaistcbfg/covNormRpkg.git
 R CMD build covNormRpkg
-R CMD INSTALL covNormRpkg_1.0.0.tar.gz
+R CMD INSTALL covNormRpkg_1.1.0.tar.gz
 ```
 
 ## Sample Data and Input Format
