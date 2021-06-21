@@ -4,8 +4,12 @@
 \alias{plotCovNormRes}
 \title{Plot coverage-interaction frequency before/expected/after normalization}
 \usage{
-plotCovNormRes(df, binsize = 100, pct_quantile = 0.99,
-  outpdfname = "plot_coverage_norm_result.pdf")
+plotCovNormRes(
+  df,
+  binsize = 100,
+  pct_quantile = 0.99,
+  outpdfname = "plot_coverage_norm_result.pdf"
+)
 }
 \description{
 Takes coverage normalized result and plot 3 heatmaps

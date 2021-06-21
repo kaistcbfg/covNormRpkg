@@ -4,8 +4,12 @@
 \alias{filterInputDF}
 \title{Filter input data frame rows}
 \usage{
-filterInputDF(df, check_trans_values = TRUE, remove_zero_contact = TRUE,
-  self_ligation_distance = 15000)
+filterInputDF(
+  df,
+  check_trans_values = TRUE,
+  remove_zero_contact = TRUE,
+  self_ligation_distance = 15000
+)
 }
 \arguments{
 \item{df}{Input data frame.}

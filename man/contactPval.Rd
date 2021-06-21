@@ -8,6 +8,8 @@ contactPval(df, outpdfname)
 }
 \arguments{
 \item{df}{A coverage-distance normalized output df.}
+
+\item{outpdfname}{fitDistr-generated fitting result pdf name.}
 }
 \value{
 df Added p-value/FDR of interactions as columns.

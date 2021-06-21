@@ -4,8 +4,14 @@
 \alias{normCoverage}
 \title{Coverage Normalization function}
 \usage{
-normCoverage(df, do_shuffle = TRUE, cov1_thresh = 200, cov2_thresh = 200,
-  max_covnorm_value = 50, sample_ratio = -1)
+normCoverage(
+  df,
+  do_shuffle = TRUE,
+  cov1_thresh = 200,
+  cov2_thresh = 200,
+  max_covnorm_value = 50,
+  sample_ratio = -1
+)
 }
 \arguments{
 \item{df}{An input dataframe.}

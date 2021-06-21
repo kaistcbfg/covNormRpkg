@@ -4,8 +4,7 @@
 \alias{normDistance}
 \title{Distance normalization function}
 \usage{
-normDistance(df, max_dist = -1, max_distnorm_value = 50,
-  sample_ratio = -1)
+normDistance(df, max_dist = -1, max_distnorm_value = 50, sample_ratio = -1)
 }
 \arguments{
 \item{df}{An input dataframe, coverage normalized.}

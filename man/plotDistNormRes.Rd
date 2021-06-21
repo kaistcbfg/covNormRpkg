@@ -4,8 +4,13 @@
 \alias{plotDistNormRes}
 \title{Plot distance-interaction frequency before/after normalization}
 \usage{
-plotDistNormRes(df, maxX = 2e+06, maxY1 = 70, maxY2 = 15,
-  outpdfname = "plot_distance_norm_result.pdf")
+plotDistNormRes(
+  df,
+  maxX = 2e+06,
+  maxY1 = 70,
+  maxY2 = 15,
+  outpdfname = "plot_distance_norm_result.pdf"
+)
 }
 \description{
 Takes distance normalized result and plot two hexagonal heatmap

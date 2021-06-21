@@ -9,21 +9,32 @@ If you use covNorm in a paper, please cite:
 
 > Kyukwang Kim and Inkyung Jung,  
 > covNorm: an R package for coverage based  normalization of Hi-C and capture Hi-C data,  
-> UNDER REVIEW  
-> doi: 
+> *Computational and Structural Biotechnology Journal*, Volume 19, pages 3149-3159(2021).
+> doi: https://doi.org/10.1016/j.csbj.2021.05.041 
 
 The preliminary forms of covNorm in previous works:
 
-> Yang, D., *et al*,   
-> 3DIV: A 3D-genome Interaction Viewer and database   
-> *Nucleic Acids Research*, Volume 46, Issue D1, 4 January 2018, pages D52–D57,.  
-> doi: https://doi.org/10.1093/nar/gkx1017
+> Kim, K., *et al*,
+> 3DIV update for 2021: a comprehensive resource of 3D genome and 3D cancer genome
+> *Nucleic Acids Research*, Volume 49, Issue D1, pages D38–D46(2020).
+> https://doi.org/10.1093/nar/gkaa1078
 
 > Jung, I., *et al*,   
 > A compendium of promoter-centered long-range chromatin interactions in the human genome   
-> *Nature Genetics* volume 51, pages1442–1449(2019).  
+> *Nature Genetics* Volume 51, pages 1442–1449(2019).  
 > doi: https://doi.org/10.1038/s41588-019-0494-8
 
+> Yang, D., *et al*,   
+> 3DIV: A 3D-genome Interaction Viewer and database   
+> *Nucleic Acids Research*, Volume 46, Issue D1, pages D52–D57(2018).  
+> doi: https://doi.org/10.1093/nar/gkx1017
+
+## License
+Copyright (c) YEAR: 2020 COPYRIGHT HOLDER: KAIST (Corporation registration number: 114471-0000668).
+Registered at the Korea Copyright Commission(C-2021-022800) in accordance with Article 53 of the Copyright Act. 
+
+Developed by Kyukwang Kim & Inkyung Jung, KAIST Dept. of Biological Sciences.
+For commercial use of the software, please contact the authors.
 
 ## Installation
 
@@ -153,7 +164,6 @@ Following columns will be added to the input dataframe:
 **dist_res**: Distance normalized interaction frequency between DNA fragments.   
 **p_result_dist**: *p*-value of the interaction.  
 **FDR_dist_res**: FDR of the interaction.  
-*Note: Before using FDR values, please check details about this value in our 'Supplementary Information'*
 
 
 Use **'capture_res'** value to plot coverge normalized Hi-C contact map.  
