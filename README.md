@@ -15,7 +15,7 @@ If you use covNorm in a paper, please cite:
 The preliminary forms of covNorm in previous works:
 
 > Kim, K., *et al*,
-> 3DIV update for 2021: a comprehensive resource of 3D genome and 3D cancer genome
+> 3DIV update for 2021: a comprehensive resource of 3D genome and 3D cancer genome  
 > *Nucleic Acids Research*, Volume 49, Issue D1, pages D38–D46(2020).  
 > doi: https://doi.org/10.1093/nar/gkaa1078
 
