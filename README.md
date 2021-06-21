@@ -128,7 +128,7 @@ covNormRpkg::checkFreqDistPCC(dist_df, outpdfname='QCplot_dist_PCC.pdf')
 covNormRpkg::plotDistNormRes( dist_df, outpdfname='QCplot_dist_hexmap.pdf')
 print("6: Plot distance normalization results.")
 
-final_df <- covNormRpkg::contactPval(dist_df)
+final_df <- covNormRpkg::contactPval(dist_df, 'fit.pdf')
 print("7: Significant interactions called.")
 
 #Uncomment 'saveEachChr' to split-save file for each chromosome.
